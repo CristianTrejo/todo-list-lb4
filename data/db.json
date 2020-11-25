@@ -1,14 +1,24 @@
 {
   "ids": {
-    "Todo": 6
+    "Todo": 10,
+    "TodoList": 4
   },
   "models": {
     "Todo": {
-      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"id\":1}",
-      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2,\"description\":\"Use the Death Star to destroy Alderaan planet\",\"isCompleted\":true}",
-      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
-      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}",
-      "5": "{\"title\":\"Ver el patido del RM\",\"description\":\"Ver el partido del Real Madrid y estar atento al resultado\",\"isCompleted\":false,\"id\":5}"
+      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"todoListId\":1,\"id\":1}",
+      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"todoListId\":1,\"id\":2}",
+      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"todoListId\":2,\"id\":3}",
+      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"todoListId\":1,\"id\":4}",
+      "5": "{\"title\":\"Play Tony Hawk Pro Skater\",\"isCompleted\":false,\"todoListId\":3,\"id\":5}",
+      "6": "{\"title\":\"Play Tony Hawk Pro Skater\",\"isCompleted\":false,\"todoListId\":3,\"id\":6}",
+      "7": "{\"title\":\"Play Fortnite\",\"isCompleted\":false,\"todoListId\":3,\"id\":7}",
+      "8": "{\"title\":\"Learn some LB4\",\"isCompleted\":true,\"todoListId\":3,\"id\":8}",
+      "9": "{\"title\":\"Sign Contracts\",\"isCompleted\":true,\"todoListId\":3,\"id\":9}"
+    },
+    "TodoList": {
+      "1": "{\"title\":\"Sith lord's check list\",\"lastModified\":\"a long time ago\",\"id\":1}",
+      "2": "{\"title\":\"My daily chores\",\"lastModified\":\"2018-07-13\",\"id\":2}",
+      "3": "{\"title\":\"Today's iddle\",\"color\":\"blue\",\"id\":3}"
     }
   }
 }
